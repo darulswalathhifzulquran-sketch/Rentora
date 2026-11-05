@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Admin(){return <main className="shell"><div className="hero"><Link href="/" className="eyebrow">← Rentora</Link><h1>Admin workspace</h1><p>Foundation preview only. Authentication, billing and tenant records are not connected yet. Do not enter real financial or personal data.</p><div className="cards">{[['Suites','4 planned'],['Tenant capacity','35 planned'],['Payments','Verification workflow planned']].map(([a,b])=><article className="card" key={a}><h2>{a}</h2><p>{b}</p></article>)}</div></div></main>}
